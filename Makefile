@@ -16,6 +16,6 @@ loopy-transit.out: loopy-transit.cpp pretty-print.h
 	$(CXX) $(CXXFLAGS) -o $@ $<
 
 clean:
-	rm -f *.o loopy-transit.out
+	rm -f *.{o,out}
 
 .PHONY: clean all sample1 sample2 sample3
